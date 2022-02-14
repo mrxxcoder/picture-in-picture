@@ -23,7 +23,7 @@ button.addEventListener('click', async () => {
     await videoElement.requestPictureInPicture();
 
     // reset button
-    button.disavbled = false;
+    button.disabled = false;
 });
 
 
